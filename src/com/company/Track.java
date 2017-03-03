@@ -34,4 +34,18 @@ public class Track {
                 ", time=" + time +
                 '}';
     }
+
+    public int compareTo(Object obj) {
+        Track tmp = (Track) obj;
+        if (this.time < tmp.time) {
+      /* текущее меньше полученного */
+            return -1;
+        } else if (this.time > tmp.time) {
+      /* текущее больше полученного */
+            return 1;
+        }
+    /* текущее равно полученному */
+        return 0;
+    }
+
 }

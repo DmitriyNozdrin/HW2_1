@@ -1,6 +1,8 @@
 package com.company;
 
 import java.util.Arrays;
+import java.util.*;
+
 
 /**
  * Created by DmitriyN on 3/3/2017.
@@ -17,9 +19,10 @@ public Track [] tracks;
         this.tracks = tracks;
     }
 
-    public void sort (){};
 
-    public void  find(){};
+
+
+
 
     @Override
     public String toString() {
@@ -27,4 +30,13 @@ public Track [] tracks;
                 "tracks=" + Arrays.toString(tracks) +
                 '}';
     }
-}
+
+
+
+
+     /* Перегрузка метода compareTo */
+
+
+    }
+
+
